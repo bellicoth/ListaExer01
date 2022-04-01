@@ -9,18 +9,18 @@ public class Exe08 {
 		 e imprime a média aritmética dos quatro números.*/
 
 		Scanner sc = new Scanner(System.in);
-		double[] num;
-		num = new double[4];
+		double val1, val2, val3, val4;
+	
 		System.out.println("Digite o número 1: ");		
-		num[0] = sc.nextDouble();
+		val1 = sc.nextDouble();
 		System.out.println("Digite o número 2: ");
-		num[1] = sc.nextDouble();
+		val2 = sc.nextDouble();
 		System.out.println("Digite o número 3: ");
-		num[2] = sc.nextDouble();
+		val3 = sc.nextDouble();
 		System.out.println("Digite o número 4: ");
-		num[3] = sc.nextDouble();
+		val4 = sc.nextDouble();
 		
-		double res = (num[0] + num[1] + num[2] + num[3]) / num.length;
+		double res = (val1 + val2 + val3 + val4) / 4;
 		System.out.println("A media é " + res);
 				
 	}

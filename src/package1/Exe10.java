@@ -17,7 +17,7 @@ public class Exe10 {
 		System.out.println("Digite o total de vendas efetuadas: ");
 		double total =  sc.nextDouble();
 		
-		double add = salarioFixo + (total - (total * 0.85));
+		double add = salarioFixo + (0.15 * total);
 		System.out.println(nome + "Seu salario final é " +  add);
 	}
 
